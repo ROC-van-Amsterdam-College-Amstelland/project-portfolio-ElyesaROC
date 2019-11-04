@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+a{
+    color: white;
+}
+
+
