@@ -51,3 +51,8 @@ main {
     height:50px;
 }
 
+
+.project{
+display: flex;
+flex-direction:column;
+}
