@@ -61,8 +61,51 @@ input {
             <input type="submit" value="Versturen">
             </fieldset>
         </form>
-    </main>
+            </body>
+            
+             
+        </main>
     <footer>
+            <style>
+                    body{
+                min-width: 100%;
+                text-align: center;
+            }
+            #all{
+                width:100%;
+                margin: 0 auto; /*centers the website*/
+            }
+            
+            #likes{
+                height:5px;
+                width:25%;
+                background:#0000ee;
+                float:left;
+            }
+            #dislikes{
+                height:5px;
+                width:25%;
+                background:#ccc;
+                float:right;
+            }
+            
+            #bar{
+                margin:0 auto;
+                width:40%;
+                
+            }
+            
+                        </style>
+            <div id="all">
+                    <div id="bar">
+                        <div id="likes"></div>
+                        <div id="dislikes"></div>
+                    </div>
+                    <input type="button" value="Like" id="likeButton" onclick="like();"/>
+                    <input type="button" value="Dislike" id="dislikeButton" onclick="dislike();"/>
+    
+                
+                </div>
         <div id="vandaag"></div>
     </footer>
 </body>
