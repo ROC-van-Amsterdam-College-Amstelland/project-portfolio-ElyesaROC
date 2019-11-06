@@ -10,3 +10,6 @@
         document.getElementById("Img1").style.display="none";
         document.getElementById("Img3").style.display="block";
     }
+    datum= new Date()
+    document.getElementById("vandaag").innerHTML = datum.getDate() + "-" + (datum.getMonth()+1)
+          + "-" + datum.getFullYear();
