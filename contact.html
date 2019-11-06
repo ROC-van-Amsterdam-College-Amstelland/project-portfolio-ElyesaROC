@@ -1,47 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/styleContact.css">
     <title>Document</title>
-    <header>
-            <nav>
-                <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="Overmij.html">Overmij</a></li>
-                        <li><a href="Vaardigheden.html">Vaardigheden</a></li>
-                        <li><a href="Project.html">Project</a></li>
-                        <li><a href="Contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>  
-</head>
+            
+    </head>
 
-<style>
-
-form {
-    /* display: flex; */
-    margin: 8em auto 0em auto;
-}
-fieldset {
-    display: flex;
-}
-
-legend {
-    font-size: 1.7em;
-    margin-bottom: 0.6em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-input {
-    width: 100%;
-}
-
-
-</style>
 <body>
-    <main>
+        <header>
+                <nav>
+                    <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="Overmij.html">Overmij</a></li>
+                            <li><a href="Vaardigheden.html">Vaardigheden</a></li>
+                            <li><a href="Project.html">Project</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>  
+        <main>
         <form>
             <fieldset>
                 <legend>
@@ -66,36 +44,7 @@ input {
              
         </main>
     <footer>
-            <style>
-                    body{
-                min-width: 100%;
-                text-align: center;
-            }
-            #all{
-                width:100%;
-                margin: 0 auto; /*centers the website*/
-            }
             
-            #likes{
-                height:5px;
-                width:25%;
-                background:#0000ee;
-                float:left;
-            }
-            #dislikes{
-                height:5px;
-                width:25%;
-                background:#ccc;
-                float:right;
-            }
-            
-            #bar{
-                margin:0 auto;
-                width:40%;
-                
-            }
-            
-                        </style>
             <div id="all">
                     <div id="bar">
                         <div id="likes"></div>
@@ -105,8 +54,8 @@ input {
                     <input type="button" value="Dislike" id="dislikeButton" onclick="dislike();"/>
     
                 
+                    <div id="vandaag"></div>
                 </div>
-        <div id="vandaag"></div>
     </footer>
 </body>
 <script src="JS/script.js"></script>
